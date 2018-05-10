@@ -116,6 +116,9 @@
 .theme-dark #friends .friends-table .friends-row+.friends-row {
     border-top: 1px solid hsl(227, 58%, 65%);
 }
+.theme-dark .primary-jw0I4K {
+    color: #ffffff;
+}
 #friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text {
     color: #eff5f3;
 }
