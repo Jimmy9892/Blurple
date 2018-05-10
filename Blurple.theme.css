@@ -25,10 +25,10 @@
     background-color: #4e5d94;
     border-color: transparent;
 }
-.scrollerThemed-2oenus .themeDark-2cjlUp.scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd .scrollerTrack-1ZIpsv .scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+.scrollerThemed-2oenus .themeDark-2cjlUp .scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd .scrollerTrack-1ZIpsv .scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: #454f76;
 }
-.scrollerThemed-2oenus .themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.scrollerThemed-2oenus .themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus .themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: #4e5d94;
     border-color: #495687;
 }
@@ -511,7 +511,7 @@
 .theme-dark .item-1GzJrl:hover {
     background-color: #7289DA;
 }
-.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+.theme-dark .private-channel-recipients-invite .friend .selected, .theme-dark .private-channel-recipients-invite .friend:hover {
     background: -webkit-gradient(linear,left top,right top,color-stop(85%,#4e5d94),to(#4e5d94));
     background: linear-gradient(90deg,#4e5d94 85%,#4e5d94);
 }
@@ -534,6 +534,9 @@
     background-color: #4e5d94;
     color: #fff;
 }
+.theme-dark .hljs-comment, .theme-dark .hljs-quote {
+    color: #ffffff;
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: #4e5d94;
     border-color: #7289da;
@@ -551,7 +554,7 @@
     background-color: #4e5d94;
     color: #fff;
 }
-.private-channels .channel.selected a {
+.private-channels .channel .selected a {
     background-color: rgb(78, 93, 148);
     color: #fff;
 }
