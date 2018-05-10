@@ -547,4 +547,12 @@
 .flex-1xMQg5 {
     color: #ffffff;
 }
+.private-channels .channel:hover a {
+    background-color: #4e5d94;
+    color: #fff;
+}
+.private-channels .channel.selected a {
+    background-color: rgb(78, 93, 148);
+    color: #fff;
+}
 /*The End*/
