@@ -515,6 +515,10 @@
     background: -webkit-gradient(linear,left top,right top,color-stop(85%,#7289da),to(#7289da));
     background: linear-gradient(90deg,#7289da 85%,#7289da);
 }
+.theme-dark .quickswitcher-3JagVE {
+    background-color: #7289DA;
+    color: #dcddde;
+}
 .search-bar .search-bar-inner {
     background: rgb(114, 137, 218);
 }
@@ -522,7 +526,15 @@
     background: #4e5d94;
     color: #fff;
 }
+.theme-dark .input-2VB9rf {
+    background-color: #4e5d94;
+    color: #fff;
+}
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
     background-color: #4e5d94;
     border-color: #7289da;
 }
+.label-1Y-LW5 {
+    color: white;
+}
+/*The End*/
