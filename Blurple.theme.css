@@ -25,8 +25,18 @@
     background-color: #4e5d94;
     border-color: transparent;
 }
-.scrollerThemed-2oenus .themeDark-2cjlUp .scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd .scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus .themeDark-2cjlUp .scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track {
-    background-color: #7289da;
+.scrollerThemed-2oenus .themeDark-2cjlUp.scrollerTrack-1ZIpsv> .scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd .scrollerTrack-1ZIpsv .scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: #454f76;
+}
+.scrollerThemed-2oenus .themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: #4e5d94;
+    border-color: #495687;
+}
+.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
+    /* background-clip: padding-box; */
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 3px;
 }
 .header-2o-2hj {
 	border-radius: 0px !important;
@@ -367,22 +377,6 @@
     background-color: #4e5d94;
 }
 .nameTag-3p0yK- {
-    -ms-flex-align: center;
-    -webkit-box-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    line-height: 17px;
-    border: 0;
-    font-family: inherit;
-    font-size: 100%;
-    font-style: inherit;
-    font-weight: inherit;
-    margin: 0;
-    outline: 0;
-    padding: 0;
-    vertical-align: baseline;
     color: #f9fafd;
 }
 .roleName-32vpEy {
@@ -511,9 +505,13 @@
 .theme-dark .item-1GzJrl:hover {
     background-color: #7289DA;
 }
-.theme-dark .private-channel-recipients-invite .friend .selected .theme-dark .private-channel-recipients-invite .friend:hover {
-    background: -webkit-gradient(linear,left top,right top,color-stop(85%,#7289da),to(#7289da));
-    background: linear-gradient(90deg,#7289da 85%,#7289da);
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: -webkit-gradient(linear,left top,right top,color-stop(85%,#4e5d94),to(#4e5d94));
+    background: linear-gradient(90deg,#4e5d94 85%,#4e5d94);
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: #4e5d94;
+    color: #fff;
 }
 .theme-dark .quickswitcher-3JagVE {
     background-color: #7289DA;
@@ -536,5 +534,8 @@
 }
 .label-1Y-LW5 {
     color: white;
+}
+.flex-1xMQg5 {
+    color: #454f76;
 }
 /*The End*/
