@@ -274,7 +274,7 @@
     background-color: #4e5d94;
 }
 .side-8zPYf6 .itemSelected-1qLhcL {
-    background-color: #72767d;
+    background-color: #7289da !important;
 }
 .side-8zPYf6 .item-PXvHYJ {
     background-color: #4e5d94;
@@ -460,7 +460,7 @@
 	color: white;
 }
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
-	color: #4e5d94;
+    color: #ffffff;
 }
 .theme-dark .friends-table .messages .divider:not(.red) div, .theme-dark .messages-wrapper .messages .divider:not(.red) div {
     background: #7289da;
